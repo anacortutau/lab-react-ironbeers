@@ -9,6 +9,8 @@
 .containerDetail{
   text-align: center;
   margin-top: 100px;
+  justify-content: center;
+  
   
 
 }
@@ -27,7 +29,7 @@
   
 }
 .details{
-  margin-left: -430px;
+  justify-content: center;
 
 
 }
@@ -35,6 +37,14 @@
   
   margin-left: 400px;
 }
+
+.form{
+  margin: 30px;
+  
+
+}
+
+
 
 
 

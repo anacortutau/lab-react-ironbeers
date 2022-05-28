@@ -59,39 +59,49 @@ function NewBeer() {
 
       <form onSubmit = {handleSubmit}>
 
+        <section class="form">
       <label htmlFor="nombre">Name</label>
       <input type="text" onChange = {handleNombreChange} name="nombre" value={nombre} />
 
+      </section>
+
       <br />
 
+      <section class="form">
       <label htmlFor="eslogan">Eslogan</label>
       <input type="text" onChange = {handleEsloganChange} name="eslogan" value={eslogan} />
-
+      </section>
       <br />
-
+      <section class="form">
+      
       <label htmlFor="descripción">Descripcion</label>
       <input type="text" onChange = {handleDescripcion} name="descripción" value={descripción} />
-
+  
+      </section>
       <br />
+        <section class="form">
 
+        
       <label htmlFor="first_brewed">Primera elaboracion</label>
       <input type="text" onChange = {handleFirst_brewed} name="first_brewed" value={first_brewed} />
-
+      </section>
       <br />
-
+      <section class="form">
       <label htmlFor="brewers_tips">Consejos para cerveceros</label>
       <input type="text" onChange = {handleBrewers_tips} name="brewers_tips" value={brewers_tips} />
-
+      </section>
       <br />
-
+      <section class="form">
       <label htmlFor="attenuation_level">Nivel Atenuacion</label>
       <input type="number" onChange = {handleAttenuation_level} name="attenuation_level" value={attenuation_level} />
+      </section>
 
       <br />
-
+      <section class="form">
       <label htmlFor="contribuido_por">Contribuido por</label>
       <input type="text" onChange = {handleContribuido_por} name="contribuido_por" value={contribuido_por} />
-
+      </section>
+      
 
       <button >Añadir</button>
 

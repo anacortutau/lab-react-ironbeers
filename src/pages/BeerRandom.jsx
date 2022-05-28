@@ -49,7 +49,7 @@ function BeerRandom() {
 
 
   return (
-    <div>
+    <div class="containerDetail">
   
           <img src={beerRandom.image_url} alt="beerDetail" width={"50px"}/>
              <h3>{beerRandom.name}</h3>
