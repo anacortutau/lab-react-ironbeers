@@ -11,7 +11,7 @@ function Navbar() {
       }
 
   return (
-    <div>
+    <div class= "container">
 
         <NavLink to="/" className={activeClass}>Home</NavLink>
         <NavLink to="/beers" end={true} className={activeClass}>Listado Cervezas</NavLink>

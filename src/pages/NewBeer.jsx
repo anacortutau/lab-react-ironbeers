@@ -93,7 +93,7 @@ function NewBeer() {
       <input type="text" onChange = {handleContribuido_por} name="contribuido_por" value={contribuido_por} />
 
 
-      <button>Añadir</button>
+      <button >Añadir</button>
 
 
       </form>

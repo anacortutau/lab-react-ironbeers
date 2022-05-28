@@ -46,15 +46,20 @@ function BeerDetail() {
 
 
   return (
-           <div>
-             <img src={beerDetails.image_url} alt="beerDetail" width={"50px"}/>
-             <h3>{beerDetails.name}</h3>
+           <div class="containerDetail">
+             <img src={beerDetails.image_url} alt="beerDetail" width={"100px"}/>
+             <section class="details">
+             <div class="beerDetais">
+             <h1>{beerDetails.name}</h1>
              <p>{beerDetails.tagline}</p>
              <p>{beerDetails.first_brewed}</p>
              <p>{beerDetails.attenuation_level}</p>
              <p>{beerDetails.description}</p>
              <p>{beerDetails.contributed_by}</p>
+             </div>
 
+             </section>
+          
              </div>
   )
 }

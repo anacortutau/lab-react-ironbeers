@@ -1,6 +1,43 @@
 .App {
-  text-align: center;
+  margin: 0px
+ 
 }
+.container{
+  text-align: center;
+  
+}
+.containerDetail{
+  text-align: center;
+  margin-top: 100px;
+  
+
+}
+
+.listBeers {
+
+  margin: 70px;
+  border-bottom: solid;
+  column-count: 2;
+  
+  
+}
+#nameBeer{
+  text-align: left;
+  margin-left: -400px;
+  
+}
+.details{
+  margin-left: -430px;
+
+
+}
+.beerDetails{
+  
+  margin-left: 400px;
+}
+
+
+
 
 .App-logo {
   height: 40vmin;

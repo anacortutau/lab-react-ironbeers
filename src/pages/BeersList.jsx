@@ -44,26 +44,32 @@ function BeersList() {
 
 
   return (
-    <div>
+    <div >
+     
 
         {
           beersList.map((eachBeer)=>{
             return (
 
              
-
+              <section class="listBeers"> 
                 <Link key={eachBeer._id} to={`/beers/${eachBeer._id}/details`}>
                 <img src={eachBeer.image_url} alt="beer" width={"50px"} />
+                <div id="nameBeer">
                 <h3>{eachBeer.name}</h3>
                 <p>{eachBeer.tagline}</p>
                 <p>{eachBeer.contributed_by}</p>
+                </div>
 
 
                 </Link>
+                </section>
              
             )
           })
         }
+
+
 
 
     </div>
