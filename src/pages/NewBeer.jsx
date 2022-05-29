@@ -55,60 +55,64 @@ function NewBeer() {
 }
 
   return (
-    <div>
 
+    
+    <div className="form">
+
+      <h1>FORMULARIO</h1>
+    
       <form onSubmit = {handleSubmit}>
 
-        <section class="form">
-      <label htmlFor="nombre">Name</label>
-      <input type="text" onChange = {handleNombreChange} name="nombre" value={nombre} />
-
-      </section>
+     
+      <label  id="nombre" htmlFor="nombre">Name</label>
+      <input class="controls" type="text" onChange = {handleNombreChange} name="nombre" value={nombre} />
 
       <br />
-
-      <section class="form">
-      <label htmlFor="eslogan">Eslogan</label>
-      <input type="text" onChange = {handleEsloganChange} name="eslogan" value={eslogan} />
-      </section>
-      <br />
-      <section class="form">
       
-      <label htmlFor="descripción">Descripcion</label>
-      <input type="text" onChange = {handleDescripcion} name="descripción" value={descripción} />
-  
-      </section>
+      <label id="eslogan" htmlFor="eslogan">Eslogan</label>
+      <input class="controls" type="text" onChange = {handleEsloganChange} name="eslogan"  value={eslogan} />
+      
       <br />
-        <section class="form">
+      
+      
+      <label id="descripcion" htmlFor="descripción">Descripcion</label>
+      <input class="controlsDescripcion" type="text" onChange = {handleDescripcion} name="descripción"  value={descripción} />
+  
+      
+      <br />
+       
 
         
-      <label htmlFor="first_brewed">Primera elaboracion</label>
-      <input type="text" onChange = {handleFirst_brewed} name="first_brewed" value={first_brewed} />
-      </section>
+      <label id="first_brewed" htmlFor="first_brewed">Primera elaboracion</label>
+      <input class="controls" type="text" onChange = {handleFirst_brewed} name="first_brewed"  value={first_brewed} />
+      
       <br />
-      <section class="form">
-      <label htmlFor="brewers_tips">Consejos para cerveceros</label>
-      <input type="text" onChange = {handleBrewers_tips} name="brewers_tips" value={brewers_tips} />
-      </section>
+      
+      <label id="brewers_tips" htmlFor="brewers_tips">Consejos para cerveceros</label>
+      <input class="controls" type="text" onChange = {handleBrewers_tips} name="brewers_tips"  value={brewers_tips} />
+      
       <br />
-      <section class="form">
-      <label htmlFor="attenuation_level">Nivel Atenuacion</label>
-      <input type="number" onChange = {handleAttenuation_level} name="attenuation_level" value={attenuation_level} />
-      </section>
-
-      <br />
-      <section class="form">
-      <label htmlFor="contribuido_por">Contribuido por</label>
-      <input type="text" onChange = {handleContribuido_por} name="contribuido_por" value={contribuido_por} />
-      </section>
+     
+      <label id="attenuation_level" htmlFor="attenuation_level">Nivel Atenuacion</label>
+      <input class="controls" type="number" onChange = {handleAttenuation_level} name="attenuation_level"  value={attenuation_level} />
       
 
-      <button >Añadir</button>
+      <br />
+      
+      <label id="contribuido_por" htmlFor="contribuido_por">Contribuido por</label>
+      <input class="controls" type="text" onChange = {handleContribuido_por} name="contribuido_por"  value={contribuido_por} />
+     
+      
+
+      <button class="boton">Añadir</button>
+      
 
 
       </form>
-
+      
     </div>
+
+   
   )
 
 }

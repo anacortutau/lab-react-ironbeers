@@ -1,10 +1,55 @@
 .App {
-  margin: 0px
+ 
  
 }
+
+h2{
+  text-align: center;
+  font-size:xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #61dafb;
+  border-radius: 20px;
+  border: solid;
+  
+
+
+}
 .container{
+  text-align: end;
+  display: flex;
+  width: 250px;
+ padding: 40px
+  
+  
+}
+#home{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+ 
+}
+#listado{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
   text-align: center;
   
+
+
+}
+#random{
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  
+
+}
+#crearCerveza{
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 .containerDetail{
   text-align: center;
@@ -39,14 +84,72 @@
 }
 
 .form{
-  margin: 30px;
+  padding: 50px;
+  margin-left: 50px;
+  
+  
+  
+}
+.controls{
+
+  width: 100%;
+  padding: 10px;
+  border-radius:20px;
+  margin-bottom: 16px;
+  
+ 
+}
+
+
+#nombre{
+font-weight: bold;
+
+}
+#eslogan{
+  font-weight: bold;
+}
+#descripcion{
+  font-weight: bold;
+}
+#first_brewed{
+  font-weight: bold;
+}
+
+#brewers_tips{
+  font-weight: bold;
+}
+
+#attenuation_level{
+  font-weight: bold;
+}
+#contribuido_por{
+  font-weight: bold;
+}
+
+.boton{
+
+  margin-left: 400px;
+  
+  width: 50%;
+  border-radius: 30px;
+  background: lightskyblue;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px; 
+}
+.controlsDescripcion{
+
+  width: 90%;
+  padding: 50px;
+  border-radius:20px;
+  margin-bottom: 16px;
   
 
 }
 
-
-
-
+h1{
+  text-align: center;
+}
 
 
 .App-logo {

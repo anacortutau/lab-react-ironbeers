@@ -11,12 +11,16 @@ function Navbar() {
       }
 
   return (
-    <div class= "container">
+    <div >
 
-        <NavLink to="/" className={activeClass}>Home</NavLink>
-        <NavLink to="/beers" end={true} className={activeClass}>Listado Cervezas</NavLink>
-        <NavLink to="/beers/random" className={activeClass}>Cerveza Random</NavLink>
-        <NavLink to="/beers/create-beer" className={activeClass}>Crear Cerveza</NavLink>
+        <nav class="container">
+
+        <NavLink id="home" to="/" className={activeClass}>Home</NavLink>
+        <NavLink id="listado" to="/beers" end={true} className={activeClass}>Listado Cervezas</NavLink>
+        <NavLink id="random" to="/beers/random" className={activeClass}>Cerveza Random</NavLink>
+        <NavLink id="crearCerveza" to="/beers/create-beer" className={activeClass}>Crear Cerveza</NavLink>
+
+        </nav>
         
     </div>
   )
